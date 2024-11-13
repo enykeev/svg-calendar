@@ -1,0 +1,25 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  width: 200px;
+  height: 180px;
+}
+
+@media print {
+  .do-not-print {
+    display: none;
+  }
+}
